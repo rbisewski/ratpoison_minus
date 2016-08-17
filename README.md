@@ -1,8 +1,8 @@
 # ratpoison minus - a fork of ratpoison with a simple Makefile system
 
-ratpoision minus is a rather sloppy fork of ratpoison with a simple Makefile
-based system for building rather than having to deal with autconf and the
-like. 
+ratpoison minus is a rather sloppy fork of ratpoison with a simple Makefile
+based system for building, rather than having to deal with autoconf and the
+like.
 
 The original purpose of this project was to increase my familiarity with
 how Xlib is utilized within the context of a window manager.
@@ -10,7 +10,7 @@ how Xlib is utilized within the context of a window manager.
 There is a bit of code cleanup / commenting in this version, as an attempt
 was made to organize some of the files into proper modules.
 
-I had consider porting parts of it to Xcb, but the current codebase has
+I had considered porting parts of it to Xcb, but the current codebase has
 a level of dependency hell that is difficult to work around without
 investing hundreds of additional hours. 
 
@@ -19,6 +19,7 @@ This is released with the hope that perhaps someone will find it useful.
 Finally, a tip-of-the-hat to the ratpoison developers (esp. Shawn Betts)
 for their excellent C and Xlib knowledge. That project was helpful for
 understanding how these low level concepts work.
+
 
 # Requirements
 
@@ -45,6 +46,7 @@ Afterwards enter the following command to build and install ratpoison minus
 
     make clean install
 
+
 # Running ratpoison minus
 
 The binary features the same options of ratpoison, for the interest of
@@ -54,6 +56,7 @@ For more detailed instructions regarding ratpoison, consider reading the
 following documentation:
 
 http://ratpoison.wxcvbn.org/ 
+
 
 # Authors
 
